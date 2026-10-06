@@ -247,6 +247,51 @@ The project uses Java 21.
 
 The Maven project contains the Spring Boot Maven plugin.
 
+## Test the code so far
+When complete run the program from here: http://localhost:8080/
+If it doesn't work get your LLM to debug the issue
+
+
+# Next Prompt
+adder/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── example/
+│   │               └── adder/
+│   │                   └── Adder.java
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── adder/
+│                       ├── AdderTest.java
+│                       └── AdderTestSuite.java
+│
+└── pom.xml
+
+For the java class only, write unit tests. Include one unit test for security. Put the unit tests in an appropriate folder structure. Include a test suite. Provide the full updated pom.xml.
+
+## run
+In the top level adder folder run the tests.
+mvn test
+
+## Test the code so far
+If it doesn't work get your LLM to debug the issue
+
+# Git
+In the adder folder initialise it as a git repo.
+check the status and run git add .
+git commit -m "Initial version of adder application"
+create a github repo (note to edit for your github account name
+git remote add origin https://github.com/yourgithubaccountname/Adder
+check the status
+git push -u origin main
+
+
+
 The application can be started with mvn spring-boot:run.
 
 The application is accessible at http://localhost:8080.
