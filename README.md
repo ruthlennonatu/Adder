@@ -248,6 +248,8 @@ The project uses Java 21.
 The Maven project contains the Spring Boot Maven plugin.
 
 ## Test the code so far
+The application can be started with 
+    mvn spring-boot:run.
 When complete run the program from here: http://localhost:8080/
 If it doesn't work get your LLM to debug the issue
 
@@ -291,7 +293,11 @@ check the status
 git push -u origin main
 
 
+# Questions
+## How long did it take for this simple program?
+## Did the llm produce good code?
+## Did it test the code well?
+## Was it secure, have good performance, clean code...
 
-The application can be started with mvn spring-boot:run.
 
 The application is accessible at http://localhost:8080.
