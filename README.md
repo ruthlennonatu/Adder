@@ -296,10 +296,10 @@ git push -u origin main
 
 
 # Questions
-## How long did it take for this simple program?
-## Did the llm produce good code?
-## Did it test the code well?
-## Was it secure, have good performance, clean code...
+- How long did it take for this simple program?
+- Did the llm produce good code?
+- Did it test the code well?
+- Was it secure, have good performance, clean code...
 
 
 The application is accessible at http://localhost:8080.
