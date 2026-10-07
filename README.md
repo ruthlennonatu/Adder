@@ -287,12 +287,12 @@ If it doesn't work get your LLM to debug the issue
 
 # Git
 In the adder folder initialise it as a git repo.
-check the status and run git add .
-git commit -m "Initial version of adder application"
-create a github repo (note to edit for your github account name
-git remote add origin https://github.com/yourgithubaccountname/Adder
-check the status
-git push -u origin main
+- check the status and run git add .
+- git commit -m "Initial version of adder application"
+- create a github repo (note to edit for your github account name
+- git remote add origin https://github.com/yourgithubaccountname/Adder
+- check the status
+- git push -u origin main
 
 
 # Questions
