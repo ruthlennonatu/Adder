@@ -129,7 +129,7 @@ Use Thymeleaf only to display the result, for example:
 Project structure
 
 Provide this exact recommended structure:
-
+'''
 adder/
 ├── pom.xml
 └── src/
@@ -145,6 +145,7 @@ adder/
             └── templates/
                 └── index.html
 
+'''
 Maven configuration
 
 Provide a complete pom.xml.
