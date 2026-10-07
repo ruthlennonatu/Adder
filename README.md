@@ -30,7 +30,6 @@ Existing Java class
 I already have this class:
 
 public class Adder {
-
     public static int add(int a, int b) {
         return a + b;
     }
@@ -301,3 +300,14 @@ git push -u origin main
 
 
 The application is accessible at http://localhost:8080.
+
+
+# Java Extension Packs
+In visual studio code add the module called Java Extension pack
+If you like also install Extension Pack for Java Auto Config; the security restrictions on ATU will block this extension.
+If your vscode is set up correctly (not ATU machines) you should see a blue 'play' button beside the tests in order to run them. If mvn test worked but you don't see the button it is most likely a fault with the set up of vscode and the relevant extensions.
+
+
+# Other languages
+You can do this lab in any of your preferred languages, just modify the instructions appropriatly. I will only provide sample notes for Java.
+Python is another easy example. 
