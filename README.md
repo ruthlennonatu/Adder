@@ -1,6 +1,6 @@
 
 
-Create a program with a chatgpt prompt:
+# Create a program with a chatgpt prompt:
 I want to build a very simple web application in Java that adds two numbers.
 
 Use:
@@ -129,7 +129,7 @@ Use Thymeleaf only to display the result, for example:
 Project structure
 
 Provide this exact recommended structure:
-'''
+```
 adder/
 ├── pom.xml
 └── src/
@@ -145,7 +145,7 @@ adder/
             └── templates/
                 └── index.html
 
-'''
+```
 Maven configuration
 
 Provide a complete pom.xml.
@@ -201,7 +201,7 @@ http://localhost:8080
 
 
 Explain briefly how the request flows:
-
+```
 HTML form
     ↓
 POST /
@@ -215,7 +215,7 @@ result added to Model
 Thymeleaf renders index.html
     ↓
 Browser displays result
-
+```
 
 Do not add error handling, validation, styling, JavaScript, databases, REST endpoints, or other features unless they are required for the application to work.
 
@@ -255,6 +255,8 @@ If it doesn't work get your LLM to debug the issue
 
 
 # Next Prompt
+Visually the folder structure would look like this:
+```
 adder/
 ├── src/
 │   ├── main/
@@ -273,7 +275,7 @@ adder/
 │                       └── AdderTestSuite.java
 │
 └── pom.xml
-
+```
 For the java class only, write unit tests. Include one unit test for security. Put the unit tests in an appropriate folder structure. Include a test suite. Provide the full updated pom.xml.
 
 ## run
